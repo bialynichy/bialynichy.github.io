@@ -1,15 +1,18 @@
 ---
 layout: page
-title: About
+title: À propos
 permalink: /about/
 ---
 
-Some information about you!
+Pers-ENS promeut la langue et la culture persane à l'École Normale Supérieure par le biais des activités linguistiques, culturelles et de recherche:
+- projections de films,
+- groupes de conversation en persan,
+- sorties culturelles,
+- nouvelles du monde iranien,
+- séminaires de recherche.
 
-### More Information
+### Plus
 
-A place to include any other types of information that you'd like to include about yourself.
+Nous sommes une association loi 1901 ([statuts](assets/statuts.pdf)).
 
-### Contact me
-
-[email@domain.com](mailto:email@domain.com)
+Nous saluons nos « confrères » de [Francophonie-ENS](http://www.francophonie-ens.org/) et du « [Séminaire sémitique](http://www.normalesup.org/~hardy) » ! 
