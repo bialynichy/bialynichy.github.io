@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Représentations culturelles de l’Iran en France
+permalink: /pages/Culture-et-politique_Version-finale.html
 ---
 
 L’objectif de ce séminaire est de partir de l’analyse de la transmission
@@ -15,8 +16,7 @@ sur une catégorie précise d’acteurs, et, enfin, de **relations
 internationales**, car les séances seront traversées par une réflexion
 sur les concepts de “diplomatie culturelle” et de “*soft power”*. 
 
-## Réflexions sur la diffusion de la culture
-iranienne en France
+## Réflexions sur la diffusion de la culture iranienne en France
 
 Le premier objectif de ce cycle est de d’interroger les intervenants non
 comme spécialistes, mais comme personnes ayant joué un rôle dans la
@@ -52,8 +52,7 @@ donner à la “censure”, au “soutien à des artistes étrangers”, aux
 significations concrètes, agrémentées d’exemples, et incarnées par des
 personnes qui en sont la première réalité. 
 
-## Réflexion sur les politiques culturelles
-iraniennes
+## Réflexion sur les politiques culturelles iraniennes
 
 Ce point de départ permettra d’aborder des questions plus directement
 politiques. En effet, s’interroger sur les parcours de ceux qui ont
