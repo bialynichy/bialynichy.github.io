@@ -1,0 +1,969 @@
+I"��<p>Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).</p>
+
+<p><img src="/images/config.png" alt="_config.yml" /></p>
+
+<p>The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the <a href="https://github.com/barryclark/jekyll-now">Jekyll Now repository</a> on GitHub.</p>
+
+<p>[</p>
+
+<h1 id="pers-ens">Pers-ENS</h1>
+
+<p>](http://pers-ens.blogspot.com/)</p>
+
+<h3 id="site-du-club-de-culture-persane-de-lens--projections-de-films-groupes-de-conversation-en-persan-sorties-culturelles-nouvelles-du-monde-iranien-">Site du club de culture persane de l’ENS : projections de films, groupes de conversation en persan, sorties culturelles, nouvelles du monde iranien, …</h3>
+
+<p>Classic</p>
+
+<ul>
+  <li><a href="http://pers-ens.blogspot.com/?view=classic">Classic</a></li>
+  <li><a href="http://pers-ens.blogspot.com/?view=flipcard">Flipcard</a></li>
+  <li><a href="http://pers-ens.blogspot.com/?view=magazine">Magazine</a></li>
+  <li><a href="http://pers-ens.blogspot.com/?view=mosaic">Mosaic</a></li>
+  <li><a href="http://pers-ens.blogspot.com/?view=sidebar">Sidebar</a></li>
+  <li><a href="http://pers-ens.blogspot.com/?view=snapshot">Snapshot</a></li>
+  <li><a href="http://pers-ens.blogspot.com/?view=timeslide">Timeslide</a></li>
+</ul>
+
+<p><a href="https://www.blogger.com/post-edit.g?blogID=7955332674641067114&amp;from=pencil" title="New post"></a><a href="https://www.blogger.com/home" title="Dashboard"></a></p>
+
+<p>(function($) { // Make the pages switch between tabs and menu as needed var pages = $(‘#pages’); var tabs = pages.length ? pages : $(‘#views’); // If no pages, views will be tabs, same resizing applies. if (tabs.length) { function onResize(e) { tabs.removeClass(‘menu’).addClass(‘tabs’); var taken = 0; tabs.parent().children().each(function() { taken += $(this).outerWidth(); }); var overflowing = tabs.parent().width() &lt; (taken + 50); // Add a buffer for safety. overflowing ? tabs.removeClass(‘tabs’).addClass(‘menu’) : tabs.addClass(‘tabs’); } $(window).resize(onResize); onResize(); // Resize immediately. // Mark a page as selected when it is open. var rePage = new RegExp(‘.*/p(/[^/]+.html$)’); $(blogger.ui()).bind(‘select clearselection’, function(e, item) { pages.find(‘.menu-item’).each(function(){ var current = false; if (item) { var us = rePage.exec($(this).attr(‘href’)); var them = rePage.exec(item.url); current = !!(us &amp;&amp; them &amp;&amp; (us[1] == them[1])); } $(this).toggleClass(‘current’, current); }); }); } })(jQuery);</p>
+
+<hr />
+<p>layout: post
+title: You’re up and running!
+—</p>
+
+<p>[</p>
+
+<p>Nov</p>
+
+<p>14</p>
+
+<p>](http://pers-ens.blogspot.com/2018/11/sorour-kasmai-et-la-litterature.html “14th November 2018”)</p>
+
+<h1 id="sorour-kasmaï-et-la-littérature-iranienne"><a href="http://pers-ens.blogspot.com/2018/11/sorour-kasmai-et-la-litterature.html">Sorour Kasmaï et la littérature iranienne</a><a href="https://www.blogger.com/post-edit.g?blogID=7955332674641067114&amp;postID=4550939141548512149&amp;from=pencil" title="Edit"></a></h1>
+
+<p><img src="/images/Photo Sorour Kasmâï.jpg" alt="" /></p>
+
+<p>Dans le cadre d’une série de rencontres autour de la diffusion de la culture iranienne iranienne en France, l’association d’élèves Pers-ENS, et la chaire PSL Moyen-Orient Méditerranée invitent l’écrivaine traductrice et éditrice Sorour Kasmaï à une discussion autour de la diffusion de la littérature iranienne en France.</p>
+
+<p>* Sorour Kasmaï *</p>
+
+<p>Sorour Kasmaï est une romancière iranienne née à Téhéran qui vit en France depuis 1983. Spécialiste de la littérature et notamment du théâtre russe, elle dirige aujourd’hui la collection “Horizons persans”, dédiée aux littératures afghane et iranienne, chez Actes Sud, dans laquelle elle a signé plusieurs traductions (notamment celle du roman culte d’Iradj Pezechkzâd Mon Oncle Napoléon). Elle est également auteure de plusieurs ouvrages en français, dont Le cimetière de verre, Actes Sud, 2002 ; La Vallée des aigles, autobiographie d’une fuite, Actes Sud, 2006 ; Un jour avant la fin du monde, Robert Laffont, 2015.</p>
+
+<p>* Descriptif du cycle de rencontres *</p>
+
+<p>L’objectif de ce cycle d’événements est de partir de l’analyse de la transmission et de la diffusion de la culture iranienne en France, pour en identifier les principaux acteurs, et développer une réflexion plus vaste sur la formation des représentations culturelles de l’Iran en France.</p>
+
+<p>Il s’agira donc d’un travail de géopolitique, puisque les représentations que nous avons d’un espace politique contribuent à le définir, de sociologie politique, puisqu’il s’agit d’une enquête sur une catégorie précise d’acteurs, et, enfin, de relations internationales, car les séances seront traversées par une réflexion sur les concepts de “diplomatie culturelle” et de “soft power”.</p>
+
+<p>Sorour Kasmaï est la troisième personne à participer à ce cycle, après Hamed Fouladvind (12 octobre), et Marin Karmitz (12 novembre).</p>
+
+<p>Voici le lien vers un descriptif plus détaillé : https://docs.google.com/document/d/1zuBAEDyaPWEtyueN556XkHIy6ua4xDXwmV0ree7G8ZQ/edit?usp=sharing</p>
+
+<p>Posted 14th November 2018 by <a href="/about">PersENS</a></p>
+
+<p>0</p>
+
+<h3 id="add-a-comment">Add a comment</h3>
+
+<hr />
+<p>layout: post
+title: You’re up and running!
+—</p>
+
+<p>[</p>
+
+<p>Oct</p>
+
+<p>28</p>
+
+<p>](http://pers-ens.blogspot.com/2018/10/marin-karmitz-et-le-cinema-iranien.html “28th October 2018”)</p>
+
+<h1 id="marin-karmitz-et-le-cinéma-iranien"><a href="http://pers-ens.blogspot.com/2018/10/marin-karmitz-et-le-cinema-iranien.html">Marin Karmitz et le cinéma iranien</a><a href="https://www.blogger.com/post-edit.g?blogID=7955332674641067114&amp;postID=6525036923379460890&amp;from=pencil" title="Edit"></a></h1>
+
+<p><img src="/images/marin karmitz.jpg" alt="" /></p>
+
+<p>Dans le cadre d’un cycle d’événements consacrés à la diffusion de la culture iranienne en France, la chaire d’excellence PSL Moyen-Orient Méditerranée et l’association Persens invitent Marin Karmitz à l’Ecole Normale supérieure pour parler de sa relation au cinéma iranien.</p>
+
+<p>Marin Karmitz est une des figures les plus importantes du cinéma indépendant en France, en tant que producteur, réalisateur, et fondateur de la société MK2. Il est également un de ceux qui a rendu possible la découverte du cinéma iranien en France : il produit Gabbeh (1996) et Le Silence (1998) de Mohsen Makhmalbaf, La Pomme (1998) de Samira Makhmalbaf ; grand ami d’Abbas Kiarostami, il produit cinq de ses films : Le vent nous emportera (1999), ABC Africa (2001), Ten (2002), Copie Conforme (2010), Like Someone in Love (2012).</p>
+
+<p>La séance se déroulera le Lundi 12 novembre à 19h au 45 rue d’Ulm, en salle Dussane.</p>
+
+<p>Elle est ouverte à tous, à condition d’avoir réservé <a href="https://www.eventbrite.com/e/billets-discussion-avec-marin-karmitz-mk2-sur-le-cinema-iranien-51396745048?aff=affiliate1">en suivant ce lien</a>.</p>
+
+<p>Posted 28th October 2018 by <a href="/about">PersENS</a></p>
+
+<p>0</p>
+
+<h3 id="add-a-comment-1">Add a comment</h3>
+
+<hr />
+<p>layout: post
+title: You’re up and running!
+—</p>
+
+<p>[</p>
+
+<p>Oct</p>
+
+<p>18</p>
+
+<p>](http://pers-ens.blogspot.com/2018/10/hafez-de-mon-coeur-soiree-poetique-et.html “18th October 2018”)</p>
+
+<h1 id="hafez-de-mon-coeur-soirée-poétique-et-musicale"><a href="http://pers-ens.blogspot.com/2018/10/hafez-de-mon-coeur-soiree-poetique-et.html">Hafez de mon coeur, soirée poétique et musicale</a><a href="https://www.blogger.com/post-edit.g?blogID=7955332674641067114&amp;postID=2774416183279484592&amp;from=pencil" title="Edit"></a></h1>
+
+<p><strong>Ecole Normale Supérieure, Amphi Rataud (ou Gallois)</strong></p>
+
+<p><strong>Vendredi 12 octobre de 19h à 22h.</strong></p>
+
+<p><img src="/images/43083344_1155177027979187_904358200860475392_n.jpg" alt="" /></p>
+
+<p>Nous vous convions à une soirée musicale et poétique centrée autour d’Hamed Fouladvind, professeur de littérature française à l’université de Téhéran, et auteur d’une récente traductions de poèmes choisis de Hâfez.</p>
+
+<p>La soirée se déroulera en trois temps. Dans un premier temps, l’auteur nous présentera sa dernière traduction de Hâféz, dans une superbe édition bilingue intitulée “Hâféz de mon coeur”. Ensuite, un groupe de musiciens traditionnels iraniens proposeront une récitation musicale de poèmes de Hâféz. Enfin, nous reviendrons sur le parcours et le rôle qu’a joué Hamed Fouladvind dans la diffusion de la culture iranienne en France (voir plus bas pour une description plus détaillée du projet).</p>
+
+<p>-- Présentation de l’Auteur –</p>
+
+<p>Issu d’une grande famille de lettrés, Hamèd Fouladvind est un passionné de culture et de littérature, auteur de divers ouvrages en persan et en français. Elève de Fernand Braudel, Pierre Vilar et Denis Richet (éminents historiens de l’Ecole des Annales), il a aussi collaboré avec les réputés spécialistes du monde musulman et iranien Aly Mazahéri et Jacques Berque. Aussi bien ses nombreux travaux sur la culture iranienne et la révolution islamique que ses études sur Nietzsche et Aragon, ainsi que ses traductions (poètes classiques persans, philosophes ou écrivains européens) ont fait de lui un passeur d’idées, un artisan du dialogue des civilisations. Avec ce magnifique Hâfez de mon cœur, sa récente traduction des odes érotiques du poète le plus vénéré des iraniens, il nous fait découvrir non seulement le merveilleux chantre d’amour de Chiraz mais, aussi, le faciès et les masques de ce que Henry de Montherlant a appelé l’homo persicus.</p>
+
+<p>-- Présentation du cycle “Représentations culturelles en France” organisé par l’association PERSENS –</p>
+
+<p>L’objectif de ce séminaire est de partir de l’analyse de la transmission et de la diffusion de la culture iranienne en France, pour en identifier les principaux acteurs, et développer une réflexion plus vaste sur la formation des représentations culturelles de l’Iran en France.</p>
+
+<p>Il s’agira donc d’un travail de géographie, puisque les représentations que nous avons d’un espace politique contribuent à le définir, de sociologie politique, puisqu’il s’agit d’une enquête sur une catégorie précise d’acteurs, et, enfin, de relations internationales, car les séances seront traversées par une réflexion sur les concepts de “diplomatie culturelle” et de “soft power”.</p>
+
+<p>Voici le lien vers un descriptif plus détaillé : <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fdocs.google.com%2Fdocument%2Fd%2F1zuBAEDyaPWEtyueN556XkHIy6ua4xDXwmV0ree7G8ZQ%2Fedit%3Fusp%3Dsharing%26fbclid%3DIwAR0azyyu2kYoCYTVHv7GRiqIPq8It9oOncmZobSrpWEqxr7wH4F6DnhWG0g&amp;h=AT3E8l_8NPp3E7t07IriW2O9SOiZAAgZHewBzEUpKGywHpKXS4AeofvmT9VKoq7JvLImKxECzKHX88n4zcAmOpGHQSGqYq0tjSa-4qMStkB9IQvnf_RidiEEaRl6LlvT">https://docs.google.com/document/d/1zuBAEDyaPWEtyueN556XkHIy6ua4xDXwmV0ree7G8ZQ/edit?usp=sharing</a></p>
+
+<p>Posted 18th October 2018 by <a href="/about">PersENS</a></p>
+
+<p>0</p>
+
+<h3 id="add-a-comment-2">Add a comment</h3>
+
+<hr />
+<p>layout: post
+title: You’re up and running!
+—</p>
+
+<p>[</p>
+
+<p>Dec</p>
+
+<p>9</p>
+
+<p>](http://pers-ens.blogspot.com/2015/12/soiree-shab-e-yalda-jeudi-17-dec-embre.html “9th December 2015”)</p>
+
+<h1><a href="http://pers-ens.blogspot.com/2015/12/soiree-shab-e-yalda-jeudi-17-dec-embre.html"></a><a href="https://www.blogger.com/post-edit.g?blogID=7955332674641067114&amp;postID=1544935652504731885&amp;from=pencil" title="Edit"></a></h1>
+
+<h4 id="soirée-shab-e-yalda">Soirée Shab-e Yalda</h4>
+
+<p>####</p>
+
+<p>jeudi 17 décembre 2015 à 20h — théâtre de l’ENS</p>
+
+<p>Entrée libre — 45 rue d’Ulm — Paris 5ème</p>
+
+<p><img src="/images/pomegranate_yalda.jpg" alt="" /></p>
+
+<p>Le jeudi 17 décembre à 20h, nous avons le plaisir de vous inviter à notre soirée pour célébrer la fête traditionnelle Shab-e Yaldā !</p>
+
+<p>D’origine zoroastrienne, Shab-e Yaldā est habituellement fêtée au solstice d’hiver et sa nuit la plus longue, ce qui correspond aussi au début du rallongement des jours.</p>
+
+<p>Nous avons l’honneur de disposer du théâtre de l’École Normale Supérieure où nous vous invitons à nous retrouver pour des lectures de poèmes en persan, dari et français, et peut-être aussi de la musique persane…</p>
+
+<p>Toutes les participations sont les bienvenues, venez avec vos recueils de poèmes ou vos instruments de musique pour monter sur scène. N’hésitez pas à nous dire à l’avance si vous comptez participer !</p>
+
+<p>Pour les personnes extérieures à l’ENS, vous pouvez d’ores et déjà nous écrire à <a href="mailto:persan@ens.fr">persan@ens.fr</a> pour être inscrits sur notre liste d’invités. Pensez à apporter une pièce d’identité.</p>
+
+<p>L’association Pers-ENS est lauréate des appels à initiatives étudiantes PSL, dans le cadre de l’Idex portant la référence ANR-10-IDEX-0001-02 PSL</p>
+
+<p>Posted 9th December 2015 by <a href="/about">PersENS</a></p>
+
+<p>0</p>
+
+<h3 id="add-a-comment-3">Add a comment</h3>
+
+<hr />
+<p>layout: post
+title: You’re up and running!
+—</p>
+
+<p>[</p>
+
+<p>Nov</p>
+
+<p>18</p>
+
+<p>](http://pers-ens.blogspot.com/2015/11/projection-de-film-la-n-uit-du-boss-u.html “18th November 2015”)</p>
+
+<h1 id="-1"><a href="http://pers-ens.blogspot.com/2015/11/projection-de-film-la-n-uit-du-boss-u.html"></a><a href="https://www.blogger.com/post-edit.g?blogID=7955332674641067114&amp;postID=3949448592187599963&amp;from=pencil" title="Edit"></a></h1>
+
+<h4 id="projection-de-film--la-nuit-du-bossu-de-farrokh-ghaffari-1963">Projection de film : “La Nuit du Bossu” de Farrokh Ghaffari (1963)</h4>
+
+<p>####</p>
+
+<p>Mercredi 25 novembre 2015 à 20h à l’ENS — salle Dussane</p>
+
+<p>Entrée libre — 45 rue d’Ulm — Paris 5ème</p>
+
+<p><img src="/images/12249959_544287215734841_5646865508384752690_n.jpg" alt="" /></p>
+
+<p>Le mercredi 25 novembre à 20h, nous avons le plaisir de vous inviter à la projection du film de Farrokh Ghaffari, “La Nuit du Bossu” !</p>
+
+<p>La séance sera présentée par Bamchade Pourvali, historien et critique de cinéma, organisateur du ciné-club mensuel et du festival annuel de l’association Cinéma(s) d’Iran.</p>
+
+<p>“La Nuit du Bossu” (Iran, 1963)<br />
+En s’inspirant d’un conte des «Mille et une nuits», “La Nuit du Bossu” offre une vue en coupe de la société iranienne des années 60 en suivant le parcours d’un cadavre dont chacun cherche à se débarrasser. Cette comédie qui passe d’une couche sociale à l’autre sur un rythme enlevé montre les talents du réalisateur et comédien Farrokh Ghaffari.<br />
+(<a href="http://www.cinemasdiran.fr/2013/05/la-nuit-du-bossu-1963/">http://www.cinemasdiran.fr/2013/05/la-nuit-du-bossu-1963/</a>)</p>
+
+<p>En raison du dispositif de sécurité actuellement en vigueur à l’ENS, les étudiants et membres du personnel de l’ENS peuvent entrer avec leur carte multifonctions, les extérieurs doivent se munir d’une pièce d’identité. Nous serons présents à la loge d’entrée pour faire rentrer ceux qui souhaiteraient assister à la projection s’ils y étaient bloqués. Notez cependant que nous n’y serons qu’avant le début de la projection, arrivez en avance !</p>
+
+<p>En espérant vous y voir,</p>
+
+<p>Pers-ENS remercie son sponsor PSL* (Paris Sciences et Lettres) pour son soutien à cet événement.</p>
+
+<p><img src="/images/UPL3732886268454158059_logoPSLstar_RU_rvb.jpg" alt="" /></p>
+
+<p>L’association Pers-ENS est lauréate des appels à initiatives étudiantes PSL, dans le cadre de l’Idex portant la référence ANR-10-IDEX-0001-02 PSL</p>
+
+<p>Posted 18th November 2015 by <a href="/about">PersENS</a></p>
+
+<p>0</p>
+
+<h3 id="add-a-comment-4">Add a comment</h3>
+
+<hr />
+<p>layout: post
+title: You’re up and running!
+—</p>
+
+<p>[</p>
+
+<p>May</p>
+
+<p>17</p>
+
+<p>](http://pers-ens.blogspot.com/2015/09/concert-exceptionnel-de-tan-bur-lens.html “17th May 2015”)</p>
+
+<h1 id="-2"><a href="http://pers-ens.blogspot.com/2015/09/concert-exceptionnel-de-tan-bur-lens.html"></a><a href="https://www.blogger.com/post-edit.g?blogID=7955332674641067114&amp;postID=8395642779575926479&amp;from=pencil" title="Edit"></a></h1>
+
+<h4 id="-concert-exceptionnel-de-tanbûr-à-lens-">« Concert exceptionnel de Tanbûr à l’ENS »</h4>
+
+<p>####</p>
+
+<p>Dimanche 24 mai 2015 à 18h à l’Amphithéâtre de PSL</p>
+
+<p>Entrée libre — 62 bis rue Gay Lussac, Paris 5ème</p>
+
+<p><img src="/images/11013160_939723639405177_8703444240709698142_n.png" alt="" /></p>
+
+<p>Le dimanche 24 mai 2015, Pers-ENS a eu l’honneur de recevoir deux artistes iraniens, pour un concert de Tanbûr exceptionnel.</p>
+
+<p>Afshin Ghorayshi, compositeur, enseignant et instrumentiste de tambûr est né en 1962 à Téhéran. Elève des regrettés maîtres de tambûr, Darvish Amir Hayati et Seyed Khalil Alinejad, il pratique la musique depuis plus de 35 ans. Plusieurs fois primé, il a obtenu notamment la distinction de « prince des musiciens», décernée par l’ambassade de France en Iran. Ce passionné de musique a fait plusieurs présentations à travers le monde.<br />
+Amir Ali Ghorayshi, fils d’Afshin Ghorayshi, né en 1997 à Téhéran a suivi brillamment le parcours que son père. À ses 11 ans, il a remporté le titre de « meilleur instrumentiste » au festival de musique de la mairie de Téhéran. Il dirige actuellement le groupe des tambûristes Simorgh. <br />
+Le jeu des mains de père et fils est unique et spectaculaire.</p>
+
+<p>Younes Faghihi, artiste peintre, calligraphe et percussionniste accompagna les musiciens lors de ce concert exceptionnel.</p>
+
+<p>Pers-ENS remercie son sponsor PSL* (Paris Sciences et Lettres) pour son soutien à cet événement.</p>
+
+<p><img src="/images/UPL3732886268454158059_logoPSLstar_RU_rvb.jpg" alt="" /></p>
+
+<p>L’association Pers-ENS est lauréate des appels à initiatives étudiantes PSL, dans le cadre de l’Idex portant la référence ANR-10-IDEX-0001-02 PSL</p>
+
+<p>Posted 17th May 2015 by <a href="/about">PersENS</a></p>
+
+<p>0</p>
+
+<h3 id="add-a-comment-5">Add a comment</h3>
+
+<hr />
+<p>layout: post
+title: You’re up and running!
+—</p>
+
+<p>[</p>
+
+<p>May</p>
+
+<p>2</p>
+
+<p>](http://pers-ens.blogspot.com/2015/09/atelier-de-calligraphie-persane-avec-ma.html “2nd May 2015”)</p>
+
+<h1 id="-3"><a href="http://pers-ens.blogspot.com/2015/09/atelier-de-calligraphie-persane-avec-ma.html"></a><a href="https://www.blogger.com/post-edit.g?blogID=7955332674641067114&amp;postID=7813459891652768903&amp;from=pencil" title="Edit"></a></h1>
+
+<h4 id="-atelier-de-calligraphie-persane-avec-maître-kiaie-">« Atelier de calligraphie persane avec Maître Kiaie »</h4>
+
+<p>####</p>
+
+<p>Dimanche 10 mai 2015 à 15h salle CELAN à l’ENS</p>
+
+<p>Entrée libre — 45 rue d’Ulm, Paris 5ème</p>
+
+<p><img src="/images/11174924_1055773541118499_6280568556368301944_n.jpg" alt="" /></p>
+
+<p>Le dimanche 10 mai 2015, à l’occasion du festival des “48 heures de arts”, Pers-ENS a organisé un atelier de calligraphie persane, animé par Maître Abodollah Kiaie.</p>
+
+<p>Merci et bravos à tous nos apprentis artistes !</p>
+
+<p>Page promotionnelle de M. Kiaie : <a href="https://www.facebook.com/A.Kiaie">https://www.facebook.com/A.Kiaie</a></p>
+
+<p>Pers-ENS remercie son sponsor PSL* (Paris Sciences et Lettres) pour son soutien à cet événement.</p>
+
+<p><img src="/images/UPL3732886268454158059_logoPSLstar_RU_rvb.jpg" alt="" /></p>
+
+<p>L’association Pers-ENS est lauréate des appels à initiatives étudiantes PSL, dans le cadre de l’Idex portant la référence ANR-10-IDEX-0001-02 PSL</p>
+
+<p>Posted 2nd May 2015 by <a href="/about">PersENS</a></p>
+
+<p>0</p>
+
+<h3 id="add-a-comment-6">Add a comment</h3>
+
+<hr />
+<p>layout: post
+title: You’re up and running!
+—</p>
+
+<p>[</p>
+
+<p>May</p>
+
+<p>1</p>
+
+<p>](http://pers-ens.blogspot.com/2015/09/theatre-iranien-lens-les-unicellulaires.html “1st May 2015”)</p>
+
+<h1 id="-4"><a href="http://pers-ens.blogspot.com/2015/09/theatre-iranien-lens-les-unicellulaires.html"></a><a href="https://www.blogger.com/post-edit.g?blogID=7955332674641067114&amp;postID=5174305701335577735&amp;from=pencil" title="Edit"></a></h1>
+
+<h4 id="-théâtre-iranien-à-lens--les-unicellulaires-">« Théâtre iranien à l’ENS : Les Unicellulaires »</h4>
+
+<p>####</p>
+
+<p>Samedi 09 mai 2015 à 14h au théâtre de l’ENS</p>
+
+<p>Entrée libre — 45 rue d’Ulm, Paris 5ème</p>
+
+<p><img src="/images/11188193_10153367086965625_7259627967611324593_n.jpg" alt="" /></p>
+
+<p>Merci pour votre présence !</p>
+
+<p>Le samedi 9 mai 2015, Pers-ENS à l’occasion du festival “Les 48h des Arts”, Pers-ENS était heureux de vous accueillir à la représentation des “Unicellulaires” de Jalal Tehrani, une pièce contemporaine iranienne mise en lecture par Tinouche Nazmjou. Traduite du persan par Liliane Angeot.</p>
+
+<p>Avec :<br />
+Arash Naimian<br />
+Tinouche Nazmjou<br />
+Yeganeh Balouchi<br />
+Younes Faghihi</p>
+
+<p>LE GUIDE : “Rien n’est sans raison, mon garçon. Les cils sont une ombrelle pour les yeux, les yeux une sentinelle pour la tête, la tête un colonel pour le corps, le corps une citadelle pour le cœur, le cœur une chapelle pour l’amour et le jeu des amants.”</p>
+
+<p>Pers-ENS remercie son sponsor PSL* (Paris Sciences et Lettres) pour son soutien à cet événement.</p>
+
+<p><img src="/images/UPL3732886268454158059_logoPSLstar_RU_rvb.jpg" alt="" /></p>
+
+<p>L’association Pers-ENS est lauréate des appels à initiatives étudiantes PSL, dans le cadre de l’Idex portant la référence ANR-10-IDEX-0001-02 PSL</p>
+
+<p>Posted 1st May 2015 by <a href="/about">PersENS</a></p>
+
+<p>0</p>
+
+<h3 id="add-a-comment-7">Add a comment</h3>
+
+<hr />
+<p>layout: post
+title: You’re up and running!
+—</p>
+
+<p>[</p>
+
+<p>Mar</p>
+
+<p>25</p>
+
+<p>](http://pers-ens.blogspot.com/2015/03/norouz-avec-pers-ens-concert-de-t-r-et.html “25th March 2015”)</p>
+
+<h1 id="-5"><a href="http://pers-ens.blogspot.com/2015/03/norouz-avec-pers-ens-concert-de-t-r-et.html"></a><a href="https://www.blogger.com/post-edit.g?blogID=7955332674641067114&amp;postID=8590159811845287732&amp;from=pencil" title="Edit"></a></h1>
+
+<h4 id="-norouz-avec-pers-ens--concert-de-târ-et-thé-persan-">« Norouz avec Pers-ENS : Concert de târ et Thé persan »</h4>
+
+<p>####</p>
+
+<p>Samedi 21 mars 2015 à 15h au théâtre de l’ENS</p>
+
+<p>Entrée libre — 45 rue d’Ulm, Paris 5ème</p>
+
+<p><img src="/images/11052886_444057139091183_2133127773382428703_n.jpg" alt="" /></p>
+
+<p>Quelle belle après-midi avons-nous passée !</p>
+
+<p>Le samedi 21 mars 2015, Pers-ENS a célébré l’entrée dans la nouvelle année 1394 en musique, avec un concert de târ par Sogol Mirzaei, suivi d’un thé persan.</p>
+
+<p>Merci d’avoir été aussi nombreux !</p>
+
+<p>“Sogol Mirzaei fait l’admiration des aficionados du râdif, le répertoire de la musique savante persane. Elève du maître Houshang Zarif et des illustres musiciens Arshad Tahmasebi et Reza Ghassemi, Sogol complète des études au conservatoire de Téhéran avant d’approfondir son savoir théorique en musicologie à la Sorbonne. En Iran, elle a donne de nombreux concerts au sein de l’orchestre du célèbre compositeur Hossein Dehlavi et des ensembles Fâkhteh et Avin, à l’opéra Vahdat, au palais de Niavaran ou encore au festival Fadjr. En plus de ces concerts en ensemble, Sogol donne à présent des performances de soliste aux racines de la tradition persane, et enchante le public par la maîtrise technique et la finesse de son jeu. Enfin, cela fait plusieurs années qu’elle enseigne le târ et le setâr aux amoureux parisiens et depuis cette année aux genevois chez les Ateliers d’ethnomusicologie (ADEM).”</p>
+
+<p>“<a href="https://www.facebook.com/pages/Shirinkam-P%C3%A2tisseries-Iraniennes-%C3%A0-Paris/112633905431885?ref=hl">Shirinkam</a> est une pâtisserie située dans le 6ème arrondissement de Paris, qui offre les gâteaux iraniens les plus frais de France, préparés sur place tous les jours par son remarquable chef pâtissier.”</p>
+
+<p>Pers-ENS remercie son sponsor PSL* (Paris Sciences et Lettres) pour son soutien à cet événement.<br />
+ L’association Pers-ENS est lauréate des appels à initiatives étudiantes PSL, dans le cadre de l’Idex portant la référence ANR-10-IDEX-0001-02 PSL<br />
+ <img src="/images/UPL3732886268454158059_logoPSLstar_RU_rvb.jpg" alt="" /></p>
+
+<p>Posted 25th March 2015 by <a href="/about">PersENS</a></p>
+
+<p>0</p>
+
+<h3 id="add-a-comment-8">Add a comment</h3>
+
+<hr />
+<p>layout: post
+title: You’re up and running!
+—</p>
+
+<p>[</p>
+
+<p>Mar</p>
+
+<p>2</p>
+
+<p>](http://pers-ens.blogspot.com/2015/03/liran-la-puissance-regionale.html “2nd March 2015”)</p>
+
+<h1 id="-6"><a href="http://pers-ens.blogspot.com/2015/03/liran-la-puissance-regionale.html"></a><a href="https://www.blogger.com/post-edit.g?blogID=7955332674641067114&amp;postID=8493921272807446589&amp;from=pencil" title="Edit"></a></h1>
+
+<h4 id="-liran--la-puissance-régionale-">« L’Iran : la puissance régionale. »</h4>
+
+<p>####</p>
+
+<p>Jeudi 05 mars 2015 à 19h à Amphithéâtre PSL</p>
+
+<p>Entrée libre — 62 bis rue Gay-Lussac, Paris 5ème</p>
+
+<p><img src="/images/10987410_434725523357678_2843242508261462618_o.jpg" alt="" /></p>
+
+<p> </p>
+
+<p><img src="/images/AVT_Alain-Frachon_5735.jpeg" alt="" /></p>
+
+<p>Le <strong>jeudi 5 mars 2015 à 19h</strong>, nous aurons l’honneur de recevoir Alain Frachon, anciennement directeur éditorial du journal Le Monde et spécialiste de la géopolitique du Moyen-Orient, pour une conférence-débat autour du thème “l’Iran : la puissance régionale.”</p>
+
+<p>En espérant vous y voir nombreux !</p>
+
+<p>Pers-ENS remercie son sponsor PSL* (Paris Sciences et Lettres) pour son soutien à cet événement.<img src="/images/UPL3732886268454158059_logoPSLstar_RU_rvb.jpg" alt="" /></p>
+
+<p>Posted 2nd March 2015 by <a href="/about">PersENS</a></p>
+
+<p>0</p>
+
+<h3 id="add-a-comment-9">Add a comment</h3>
+
+<hr />
+<p>layout: post
+title: You’re up and running!
+—</p>
+
+<p>[</p>
+
+<p>Nov</p>
+
+<p>17</p>
+
+<p>](http://pers-ens.blogspot.com/2014/11/projection-de-documentaire-into-sea-et.html “17th November 2014”)</p>
+
+<h1 id="-7"><a href="http://pers-ens.blogspot.com/2014/11/projection-de-documentaire-into-sea-et.html"></a><a href="https://www.blogger.com/post-edit.g?blogID=7955332674641067114&amp;postID=1639658518212045405&amp;from=pencil" title="Edit"></a></h1>
+
+<h4 id="projection-de-documentaire-into-the-sea--et-si-on-allait-faire-du-surf-en-iran-">Projection de documentaire “Into the sea” : et si on allait faire du surf en Iran ?</h4>
+
+<p>Lundi 17 novembre 2014 à 20h30 à l’École Normale Supérieure<br />
+Entrée libre — Amphi Rataud, 45 rue d’Ulm 75005 Paris</p>
+
+<p>***Entrée libre***</p>
+
+<p><img src="/images/10380584_385689938261237_347027289902742107_o.jpg" alt="" /></p>
+
+<p>Ce <strong>lundi 17 novembre 2014 à 20h30 à l’ENS</strong>, Pers-ENS a le plaisir de vous convier à la projection du film “Into the sea” de Marion Poizeau.</p>
+
+<p>“Into the sea” est un documentaire inédit que PersENS a la chance de vous faire découvrir ! Il retrace l’aventure de trois sportives et de leur engagement pour l’introduction du surf en Iran, dans la région tribale et plutôt conservatrice du Sistan- Balouchistan, à la frontière pakistanaise. Le projet audacieux permet de soulever la délicate question de la participation des femmes aux activités sportives dans la société iranienne…</p>
+
+<p><img src="/images/marioncover-610x562.jpg" alt="" /></p>
+
+<p>Marion Poizeau, la réalisatrice, qui participe à l’aventure depuis ses débuts, sera présente pour un débat à l’issue de la projection.</p>
+
+<p>Au plaisir de vous voir lundi !</p>
+
+<p>Pers-ENS remercie son sponsor PSL* (Paris Sciences et Lettres) pour son soutien à cet événement !<img src="/images/UPL3732886268454158059_logoPSLstar_RU_rvb.jpg" alt="" /></p>
+
+<p>Posted 17th November 2014 by <a href="/about">PersENS</a></p>
+
+<p>0</p>
+
+<h3 id="add-a-comment-10">Add a comment</h3>
+
+<hr />
+<p>layout: post
+title: You’re up and running!
+—</p>
+
+<p>[</p>
+
+<p>Nov</p>
+
+<p>17</p>
+
+<p>](http://pers-ens.blogspot.com/2014/11/projection-de-film-propos-deli-de.html “17th November 2014”)</p>
+
+<h1 id="-8"><a href="http://pers-ens.blogspot.com/2014/11/projection-de-film-propos-deli-de.html"></a><a href="https://www.blogger.com/post-edit.g?blogID=7955332674641067114&amp;postID=6260326856978445642&amp;from=pencil" title="Edit"></a></h1>
+
+<h4 id="projection-de-film-à-propos-deli-de-asghar-farhadi-à-lens">Projection de film “À propos d’Eli” de Asghar Farhadi à l’ENS</h4>
+
+<p>Mercredi 1er octobre 2014 à 20h30 à l’École Normale Supérieure<br />
+Entrée libre — Salle Dussane, 45 rue d’Ulm 75005 Paris</p>
+
+<p>***Entrée libre***</p>
+
+<p><img src="/images/1495936_10152521558829219_6939092401079228850_o.jpg" alt="" /></p>
+
+<p>Merci d’avoir été si nombreux <strong>l</strong><strong>e mercredi soir 1er octobre 2014</strong> pour la projection du film d’Asghar Farhadi <strong>“A propos d’Elli”</strong>.</p>
+
+<p>Pour sa rentrée, l’association Pers-ENS, en partenariat avec le Ciné-club de l’ENS et PSL*, a eu le plaisir de vous inviter à la projection 35mm du film “À propos d’Elly” de Asghar Farhadi (2009).</p>
+
+<p>Ours d’argent à la Berlinale en 2009, “À propos d’Elly” met en scène une bande de jeunes Iraniens en vacances au bord de la mer Caspienne. Parmi eux, la mystérieuse Elly, invitée inattendue, disparaît. Sa recherche fait éclater les incompréhensions et les tensions du groupe de jeunes gens, mettant à jour les crispations et les drames qui reflètent aussi les aspirations d’une jeunesse iranienne. Le style magistral d’Asghar Farhadi ( “Une séparation”, “Le Passé”) fait de ce film l’un des grands succès du cinéma iranien contemporain.</p>
+
+<p>Au plaisir de vous voir lors de nos prochains évènements !</p>
+
+<p>Pers-ENS remercie son sponsor PSL* (Paris Sciences et Lettres) pour son soutien à cet événement</p>
+
+<p><img src="/images/UPL3732886268454158059_logoPSLstar_RU_rvb.jpg" alt="" /></p>
+
+<p>Posted 17th November 2014 by <a href="/about">PersENS</a></p>
+
+<p>0</p>
+
+<h3 id="add-a-comment-11">Add a comment</h3>
+
+<hr />
+<p>layout: post
+title: You’re up and running!
+—</p>
+
+<p>[</p>
+
+<p>May</p>
+
+<p>16</p>
+
+<p>](http://pers-ens.blogspot.com/2014/05/contes-persans-avec-henri-gougaud-mise.html “16th May 2014”)</p>
+
+<h1 id="-9"><a href="http://pers-ens.blogspot.com/2014/05/contes-persans-avec-henri-gougaud-mise.html"></a><a href="https://www.blogger.com/post-edit.g?blogID=7955332674641067114&amp;postID=3791158000091577867&amp;from=pencil" title="Edit"></a></h1>
+
+<p><a href="/images/UPL3732886268454158059_logoPSLstar_RU_rvb.jpg"><br />
+</a></p>
+
+<h4 id="contes-persans-avec-henri-gougaud-mise-en-musique-par-bâbak-pezeshknia">Contes persans avec Henri Gougaud, mise en musique par Bâbak Pezeshknia</h4>
+
+<p>Dimanche 18 mai 2014 à 16h à l’École Normale Supérieure<br />
+Entrée libre — Salle Dussane, 45 rue d’Ulm 75005 Paris</p>
+
+<p>***Entrée libre***</p>
+
+<p><img src="/images/10294370_303404573156441_8756930734392138537_n.jpg" alt="" /></p>
+
+<p>Ce <strong>dimanche 18 mai 2014 à 16h</strong>, dans le cadre du “48h des arts”, Pers-ENS est heureux de vous inviter à une séance de contes persans animée par le célèbre conteur Henri Gougaud et mise en musique par Bâbak Pezeshknia, dimanche prochain le 18 mai à 16h. L’entrée est libre et suivi d’une dégustation de pâtisseries iraniennes.</p>
+
+<p><img src="/images/gougaud.jpg" alt="" /></p>
+
+<p>Henri Gougaud, écrivain et poète, célèbre pour son talent de conteur, est notamment l’auteur d’une adaptation de La Conférence des Oiseaux de ‘Attar aux éditions du Seuil. Il a également écrit et publié de nombreux contes, poèmes, nouvelles et romans et animé une émission littéraire sur France Inter. Il anime régulièrement des soirées de contes.</p>
+
+<p><img src="/images/413d8d6d1867d8141f084645f1f26a8e.jpg" alt="" /> Bâbak Pezeshknia, musicien iranien, maîtrisant les instruments de la musique traditionnelle perse, accompagnera Henri Gougaud avec des morceaux de musique du répertoire classique persan.</p>
+
+<p><img src="/images/26271_586672961361308_1310942293_n.jpg" alt="" /> La pâtisserie / traiteur iranien Shirinkam qui se trouve dans le 6ème arrondissement de Paris, fournira un goûter sucré avec du thé à la cardamome au samovar.</p>
+
+<p>Au plaisir de vous voir dimanche !</p>
+
+<p>Pers-ENS remercie son sponsor PSL* (Paris Sciences et Lettres) pour son soutien à cet événement !<img src="/images/UPL3732886268454158059_logoPSLstar_RU_rvb.jpg" alt="" /></p>
+
+<p>Posted 16th May 2014 by <a href="/about">PersENS</a></p>
+
+<p>0</p>
+
+<h3 id="add-a-comment-12">Add a comment</h3>
+
+<hr />
+<p>layout: post
+title: You’re up and running!
+—</p>
+
+<p>[</p>
+
+<p>Apr</p>
+
+<p>14</p>
+
+<p>](http://pers-ens.blogspot.com/2014/04/projection-de-film-modest-reception.html “14th April 2014”)</p>
+
+<h1 id="-10"><a href="http://pers-ens.blogspot.com/2014/04/projection-de-film-modest-reception.html"></a><a href="https://www.blogger.com/post-edit.g?blogID=7955332674641067114&amp;postID=1810780392207093795&amp;from=pencil" title="Edit"></a></h1>
+
+<h4 id="projection-de-film---modest-reception-">Projection de film : « Modest reception »</h4>
+
+<p>Jeudi 17 avril 2014 à 20h30 à l’École Normale Supérieure<br />
+Entrée libre — Salle Dussane, 45 rue d’Ulm 75005 Paris</p>
+
+<p>***Entrée libre***</p>
+
+<p><img src="/images/10155844_289080764588822_972232959_n.jpg" alt="" /></p>
+
+<p>Ce <strong>jeudi 17 avril 2014 à 20h30</strong>, Pers-ENS vous invite au cinéma ! Le film « Modest reception » (<em>Paziraie Sadeh</em>) de Mani Haghighi (Iran, 2012) encore jamais sorti en France, est une comédie cruelle, décapante et terrifiante, qui nous brosse un tableau anti-conformiste de la relation à l’argent dans l’Iran d’aujourd’hui.</p>
+
+<p><strong>Synopsis :</strong> Un jeune couple de Téhéranais traverse à vive allure les montagnes d’une région reculée, le coffre chargé de sacs de billets de banque, pour les distribuer à la population. Mais la tournée de ces citadins décalés se révèle vite perverse à mesure que la distribution se transforme en jeu cruel, mettant les bénéficiaires à leur merci complète par l’appât du gain…</p>
+
+<p><img src="/images/def_Bamchade-Pourvali_photo.jpg" alt="" /></p>
+
+<p><strong>Bamchade Pourvali</strong>, responsable du site “Cinéma(s) d’Iran” et du ciné-club “Les Samedis du Cinéma iranien” au Nouvel Odéon introduira la projection.</p>
+
+<p><img src="/images/Lady-Teheran-Affiche.png" alt="" /> Le film sera précédé du court-métrage <strong>“Lady Tehran”</strong> de Camille Simony (2012). A travers la récitation fragmentée du poème « Tehran Banou » de Mohammad Ali Sepanlou, la réalisatrice suit un chauffeur de taxi dans une ville la nuit. Où sommes-nous ? A Téhéran comme l’affirme la voix calme et posée du chauffeur de taxi ou ailleurs? Cette vidéo questionne le rapport entre le son et l’image, le champ et le hors-champ.</p>
+
+<p>Pers-ENS remercie son sponsor PSL* (Paris Sciences et Lettres) pour son soutien à cet événement !</p>
+
+<p><img src="/images/psl_logo_70.png" alt="" /></p>
+
+<p>Posted 14th April 2014 by <a href="/about">PersENS</a></p>
+
+<p>0</p>
+
+<h3 id="add-a-comment-13">Add a comment</h3>
+
+<hr />
+<p>layout: post
+title: You’re up and running!
+—</p>
+
+<p>[</p>
+
+<p>Apr</p>
+
+<p>14</p>
+
+<p>](http://pers-ens.blogspot.com/2014/04/liran-en-2014-une-revolution-achevee-ou.html “14th April 2014”)</p>
+
+<h1 id="-11"><a href="http://pers-ens.blogspot.com/2014/04/liran-en-2014-une-revolution-achevee-ou.html"></a><a href="https://www.blogger.com/post-edit.g?blogID=7955332674641067114&amp;postID=1145408660904738798&amp;from=pencil" title="Edit"></a></h1>
+
+<h4 id="-liran-en-2014--une-révolution-achevée-ou-à-venir--">« L’Iran en 2014 : une révolution achevée ou à venir ? »</h4>
+
+<p>####</p>
+
+<p>Mercredi 26 mars 2014 à 19h à l’École Normale Supérieure</p>
+
+<p>Entrée libre — Salle des Actes, 45 rue d’Ulm 75005 Paris</p>
+
+<p><img src="/images/10013883_10203469805646856_619374448_n.jpg" alt="" /></p>
+
+<p>Le <strong>mercredi 26 mars 2014</strong>, l’association Pers-ENS a été heureuse de vous accueillir si nombreux à son évènement : conférence-débat avec Clément Therme (Université de Genève) et Serge Michel (grand reporter au Monde, prix Albert Londres) sur le thème « L’Iran en 2014 : une révolution achevée ou à venir ? ».</p>
+
+<p><img src="/images/AVT_Serge-Michel_173.jpeg" alt="" /></p>
+
+<p><strong>Serge Michel</strong> est grand reporter au Monde, pour lequel il a couvert les négociations de Genève sur le nucléaire iranien. En 2001, il a été lauréat du prix Albert-Londres pour ses chroniques sur l’Iran. Il est l’auteur de l’ouvrage “Marche sur mes yeux : Portrait de l’Iran d’aujourd’hui” (Grasset, 2010) avec des photographies de Paolo Woods, et de nombreux articles sur l’actualité politique et sociale de l’Iran.</p>
+
+<p><img src="/images/clement_therne_pays_dr.jpg" alt="" /></p>
+
+<p><strong>Clément Therme</strong> est chercheur post-doctorant à l’Université de Genève. Membre associé du Centre d’études turques, ottomanes, balkaniques et centrasiatiques (CETOBAC) et du Centre d’Analyse et d’Intervention Sociologiques (CADIS) de l’Ecole des Hautes Etudes en Sciences Sociales (EHESS), il est docteur en Histoire internationale de l’IHEID et docteur en sociologie de l’EHESS. Il est l’auteur de “Les relations entre Téhéran et Moscou depuis 1979” (PUF, 2012) et le co-directeur de l’ouvrage “Iran and the Challenges of the Twenty-First Century” (Mazda Publishers, 2013).</p>
+
+<p>Posted 14th April 2014 by <a href="/about">PersENS</a></p>
+
+<p>0</p>
+
+<h3 id="add-a-comment-14">Add a comment</h3>
+
+<hr />
+<p>layout: post
+title: You’re up and running!
+—</p>
+
+<p>[</p>
+
+<p>Oct</p>
+
+<p>15</p>
+
+<p>](http://pers-ens.blogspot.com/2013/10/nouvelle-donne-en-iran-ou-nous-mene-t.html “15th October 2013”)</p>
+
+<h1 id="-12"><a href="http://pers-ens.blogspot.com/2013/10/nouvelle-donne-en-iran-ou-nous-mene-t.html"></a><a href="https://www.blogger.com/post-edit.g?blogID=7955332674641067114&amp;postID=8368326027534861820&amp;from=pencil" title="Edit"></a></h1>
+
+<h4 id="-nouvelle-donne-en-iran--où-nous-mène-t-elle--">« Nouvelle donne en Iran : où nous mène-t-elle ? »</h4>
+
+<p>####</p>
+
+<p>Jeudi 24 octobre à 19h à l’École Normale Supérieure</p>
+
+<p>Entrée libre — Salle des Actes, 45 rue d’Ulm 75005 Paris</p>
+
+<p><img src="/images/994333_10152016552175625_1640451021_n.jpg" alt="" /></p>
+
+<p>Pour sa rentrée, le <strong>jeudi 24 octobre</strong> à <strong>19h</strong> l’association Pers-ENS vous propose de rencontrer trois éminents spécialistes de l’Iran : Bruno Tertrais, Bernard Hourcade et François Nicoullaud, autour d’une conférence débat intitulé « Nouvelle donne en Iran : où nous mène-t-elle ? ».</p>
+
+<p>Les élections de juin dernier ont installé à la tête de la République Islamique le président Hassan Rohani, un religieux considéré comme un modéré, suscitant l’espoir de la communauté internationale. Mais si celui-ci, ancien négociateur du nucléaire, s’efforce de donner des gages d’ouverture, le conflit syrien laisse peser des doutes sur la volonté de normalisation du régime iranien. Vainqueur surprise des élections présidentielles, le président Rohani impose un style bien différent de son prédécesseur Mahmoud Ahmadinejad, et entend notamment voir s’alléger le poids des sanctions contre l’Iran. Où cette « nouvelle donne » iranienne pourrait-elle nous mener ?</p>
+
+<p><strong>Les intervenants :</strong></p>
+
+<p><img src="/images/Nicoullaud.jpg" alt="" /></p>
+
+<p><strong>François Nicoullaud</strong>, analyste de politique internationale, a eu une longue carrière de diplomate qui l’a notamment conduit à traiter des questions de prolifération nucléaire, et à servir pendant près de cinq ans comme ambassadeur de France à Téhéran. Il est l’auteur d’un ouvrage Le Turban et la Rose (Ramsay, 2006), tiré de cette dernière expérience, et de nombreux articles sur l’Iran et la non-prolifération dans la presse française et étrangère.<br />
+<img src="/images/bernard_hourcade_carre_dr.jpg" alt="" /></p>
+
+<p><strong>Bernard Hourcade</strong> est géographe, directeur de recherche émérite au CNRS. Agrégé et docteur en géographie, ancien directeur de l’Institut Français de Recherche en Iran (1978 – 1993), et de l’équipe de recherche « Monde iranien », il longtemps résidé en Iran notamment pendant la révolution islamique. Ses travaux fondés sur des d’études de terrain souvent réalisées en collaboration avec des universitaires iraniens, portent sur la géographie sociale, culturelle et politique de l’Iran et de Téhéran. Principales publications récentes : Atlas de Téhéran métropole, Téhéran 2005, Géopolitique de l’Iran, A. Colin, 2010 ; « Irancarto », site d’analyses cartographiques sur l’Iran <a href="http://www.facebook.com/l.php?u=http%3A%2F%2Fwww.irancarto.cnrs.fr&amp;h=6AQHovf9n&amp;enc=AZPYcP32ggY3_yt5fUpAjf7_v1rgSi7zR655G9riuSoWC0xoh7We7K7M8H-AVzlo6n8&amp;s=1">www.irancarto.cnrs.fr</a>)</p>
+
+<p><img src="/images/696787_4_8820_bruno-tertrais-maitre-de-recherche-a-la.jpg" alt="" /><br />
+<strong>Bruno Tertrais</strong> est maître de recherches à la Fondation pour la Recherche Stratégique. Docteur en sciences politiques, il a été directeur de la commission des Affaires civiles à l’assemblée de l’OTAN, chargé de mission auprès du directeur des Affaires Stratégiques au Ministère de la Défense. Il a également collaboré aux travaux de la RAND corporation et participé à la préparation du Livre Blanc pour la défense et sécurité nationale (2008). Il est spécialiste de la sécurité au Moyen-Orient, de la prolifération et de la dissuasion nucléaire, et l’auteur de l’ouvrage Iran, la prochaine guerre ? (Le Cherche-midi, 2007).</p>
+
+<p>Alors à jeudi !</p>
+
+<p>L’équipe de Pers-Ens</p>
+
+<p>Posted 15th October 2013 by <a href="/about">PersENS</a></p>
+
+<p>0</p>
+
+<h3 id="add-a-comment-15">Add a comment</h3>
+
+<hr />
+<p>layout: post
+title: You’re up and running!
+—</p>
+
+<p>[</p>
+
+<p>May</p>
+
+<p>27</p>
+
+<p>](http://pers-ens.blogspot.com/2013/05/iran-juin-2013-mr_27.html “27th May 2013”)</p>
+
+<h1 id="-13"><a href="http://pers-ens.blogspot.com/2013/05/iran-juin-2013-mr_27.html"></a><a href="https://www.blogger.com/post-edit.g?blogID=7955332674641067114&amp;postID=587979299807525236&amp;from=pencil" title="Edit"></a></h1>
+
+<h2 id="iran-juin-2013--mr-nobody-élu-président-dela-république-islamique-">“Iran juin 2013 : Mr. Nobody élu président de la République islamique ?”</h2>
+
+<p>####</p>
+
+<p>Jeudi 30 mai à 18h à l’École Normale Supérieure</p>
+
+<p>Entrée libre — Salle Résistants, 45 rue d’Ulm 75005 Paris</p>
+
+<p><img src="/images/580315_10151717323995625_1810671535_n.jpg" alt="" /></p>
+
+<p>Ce <strong>jeudi 30 mai</strong> à <strong>18h</strong>, nous avons le plaisir de vous convier au troisième événement de notre cycle de conférences <strong>“l’Iran aux urnes !”</strong>, avec l’intervention de Bernard Hourcade, géographe, directeur d’études émérite au CNRS et spécialiste de la géopolitique de l’Iran.</p>
+
+<p>Après l’élection présidentielle de 2009 qui avait provoqué une contestation et une répression violente du « mouvement vert », la vie politique iranienne a été reprise en main par le Guide Ali Khamenei. Son pouvoir est en outre consolidé par une certaine unité nationale imposée par les menaces militaires israéliennes et par l’embargo économique international contre le programme nucléaire iranien.</p>
+
+<p>La présélection des candidats écartera donc tous ceux qui sont opposés au Guide et tous les candidats déclarés envisagent de résoudre la crise du nucléaire et de normaliser les relations avec les Etats-Unis pour permettre à l’économie et à la société iranienne de sortir de son isolement tout en restant dans le cadre de la République islamique. Dans ces conditions, peu importe le nom qui sortira des urnes.</p>
+
+<p>A moins que…</p>
+
+<p>L’Iran n’est pas une démocratie mais c’est une république, et les élections ont toujours apporté des surprises.</p>
+
+<p>Au plaisir de vous retrouver jeudi pour en débattre,</p>
+
+<p>L’équipe Pers-ENS</p>
+
+<p>Posted 27th May 2013 by <a href="/about">PersENS</a></p>
+
+<p>0</p>
+
+<h3 id="add-a-comment-16">Add a comment</h3>
+
+<hr />
+<p>layout: post
+title: You’re up and running!
+—</p>
+
+<p>[</p>
+
+<p>May</p>
+
+<p>21</p>
+
+<p>](http://pers-ens.blogspot.com/2013/05/lelection-presidentielle-et-la.html “21st May 2013”)</p>
+
+<h1 id="-14"><a href="http://pers-ens.blogspot.com/2013/05/lelection-presidentielle-et-la.html"></a><a href="https://www.blogger.com/post-edit.g?blogID=7955332674641067114&amp;postID=3575465376159550361&amp;from=pencil" title="Edit"></a></h1>
+
+<p>###</p>
+
+<h4 id="-lélection-présidentielle-et-la-politique-interne-et-étrangère-de-liran--un-tournant-est-il-possible--">« L’élection présidentielle et la politique interne et étrangère de l’Iran : un tournant est-il possible ? »</h4>
+
+<p>###</p>
+
+<p><strong>Vendredi 24 mai à 18h à</strong> l’École Normale Supérieure</p>
+
+<p>Entrée libre — Amphi Rataud, 45 rue d’Ulm 75005 Paris</p>
+
+<p><img src="/images/943079_10151428171317227_282022897_n.jpg" alt="" /></p>
+
+<p>Ce <strong>vendredi 24 mai</strong> à <strong>18h</strong>, nous accueillerons Mme Azadeh Kian, professeure de sociologie à l’université Paris-VII et auteure de nombreuses publications sur les évolutions sociopolitiques de l’Iran contemporain. Dans le cadre du deuxième événement de notre cycle de conférences <strong>« L’Iran aux urnes ! »</strong>, Azadeh Kian abordera avec nous la question sourcilleuse de l’élection présidentielle.</p>
+
+<p>Quatre ans après la victoire controversée de Mahmoud Ahmadinejad à l’élection présidentielle de juin 2009, les Iraniens sont à nouveau appelés aux urnes. Avec le souvenir des contestations et manifestations réprimées et compte tenu des enjeux, l’Iran se trouve dans le collimateur de la communauté internationale pour cette élection qui aura lieu le 14 juin 2013.</p>
+
+<p>Déclenché avec les événements de l’été 2009, le « Mouvement Vert » a suscité beaucoup d’espoir mais aussi beaucoup d’incertitude. Alors que certains y voyaient une mèche révolutionnaire, d’autres restent plus sceptiques sur la portée effective du mouvement. Où en est la « vague verte » aujourd’hui ? Les candidats représentent-ils les aspirations de cette société moderne ? Les Iraniens peuvent-ils espérer une pacification du champ interne ainsi que des relations régionales et internationales apaisées à l’issue de la présidentielle ?</p>
+
+<p>Rendez-vous vendredi soir pour en débattre avec Mme Azadeh Kian !</p>
+
+<p>Soyez au courant de nos derniers événements en vous inscrivant à notre mailing-list <a href="mailto:persan@ens.fr">persan@ens.fr</a></p>
+
+<p>L’équipe de Pers-ENS</p>
+
+<p>Posted 21st May 2013 by <a href="/about">PersENS</a></p>
+
+<p>0</p>
+
+<h3 id="add-a-comment-17">Add a comment</h3>
+
+<hr />
+<p>layout: post
+title: You’re up and running!
+—</p>
+
+<p>[</p>
+
+<p>May</p>
+
+<p>15</p>
+
+<p>](http://pers-ens.blogspot.com/2013/05/concert-de-musique-iranienne-yahyazadeh.html “15th May 2013”)</p>
+
+<h1 id="-15"><a href="http://pers-ens.blogspot.com/2013/05/concert-de-musique-iranienne-yahyazadeh.html"></a><a href="https://www.blogger.com/post-edit.g?blogID=7955332674641067114&amp;postID=1365155287830615772&amp;from=pencil" title="Edit"></a></h1>
+
+<h3 id="concert-de-musique-iranienne---yahyazadeh-aux-48h-des-arts-de-lens">Concert de musique iranienne — Yahyazadeh aux 48h des Arts de l’ENS</h3>
+
+<h3 id="samedi-18-mai-à-16h-à-lécole-normale-supérieure">samedi 18 mai à 16h à l’École Normale Supérieure</h3>
+
+<h4 id="cour-aux-ernests-45-rue-dulm-75005-paris">Cour aux Ernests, 45 rue d’Ulm 75005 Paris</h4>
+
+<p><img src="/images/311082_10200099947566783_1810056509_n.jpg" alt="" /></p>
+
+<p>Ce <strong>samedi 18 mai</strong> à <strong>16h</strong> dans la cour aux Ernests, l’association Pers-ENS vous invite à un <strong>concert de musique iranienne</strong> avec l’ensemble Yahyazadeh. L’entrée est libre !</p>
+
+<p>S’inscrivant dans la tradition musicale du Mazandaran, région du nord de l’Iran, l’ensemble Yahyazadeh vous emmène jusqu’à la Mer Caspienne pour vous conter l’histoire de la région avec des instruments classiques de la musique iranienne tels que le santour, le daf, le tombak, le kamanche, le setar ou le ney.</p>
+
+<p>Formé autour du renommé chanteur et instrumentaliste Ahmad Yahyazadeh, issu d’une grande famille de musiciens et formé au conservatoire de Téhéran, le groupe interprète avec virtuosité des morceaux de musique classique persane et soufie du Mazandaran.</p>
+
+<p>Pour les amateurs, c’est un plaisir renouvelé ; pour les curieux, c’est une merveilleuse entrée dans la culture musicale iranienne.</p>
+
+<p>Pour vous tenir informés de nos événements, vous pouvez vous inscrire à notre newsletter en écrivant à <a href="mailto:persan@ens.fr">persan@ens.fr</a>, mais aussi nous suivre sur notre page facebook <a href="http://www.facebook.com/persens.ulm">http://www.facebook.com/persens.ulm</a><br />
+Au plaisir de vous voir samedi,</p>
+
+<p>L’équipe de Pers-ENS</p>
+
+<p>Posted 15th May 2013 by <a href="/about">PersENS</a></p>
+
+<p>0</p>
+
+<h3 id="add-a-comment-18">Add a comment</h3>
+
+<hr />
+<p>layout: post
+title: You’re up and running!
+—</p>
+
+<p>[</p>
+
+<p>May</p>
+
+<p>13</p>
+
+<p>](http://pers-ens.blogspot.com/2013/05/faut-il-avoir-peur-de-la-republique.html “13th May 2013”)</p>
+
+<h1 id="-faut-il-avoir-peur-de-la-république-islamique--"><a href="http://pers-ens.blogspot.com/2013/05/faut-il-avoir-peur-de-la-republique.html">« Faut-il avoir peur de la république islamique ? »</a><a href="https://www.blogger.com/post-edit.g?blogID=7955332674641067114&amp;postID=2382208730260622706&amp;from=pencil" title="Edit"></a></h1>
+
+<h3 id="vendredi-17-mai-à-18h-à-lécole-normale-supérieure"> vendredi 17 mai à 18h à l’École Normale Supérieure</h3>
+
+<h4 id="salle-celan-45-rue-dulm-75005-paris">Salle Celan, 45 rue d’Ulm 75005 Paris</h4>
+
+<h2 id="-16"><img src="/images/fautil.jpg" alt="" /></h2>
+
+<p>Ce <strong>vendredi 17 mai</strong> à <strong>18h</strong> en salle Celan, nous avons le plaisir de vous convier au premier événement de notre cycle de conférences <strong>« L’Iran aux urnes ! »</strong>.</p>
+
+<p>M. François Nicoullaud, ancien ambassadeur de France en Iran, sera à l’École Normale Supérieure pour nous introduire aux nouveaux enjeux des élections dans la République Islamique d’Iran.</p>
+
+<p>Exécutions publiques, lapidations, bombe atomique, menaces contre Israël, voile islamique, théocratie, lourd appareil de répression… La république islamique d’Iran fait peur : à sa propre population, à la région qui l’entoure, et même au reste du monde. Mais elle se vit elle-même comme lourdement sanctionnée par un embargo à peu près généralisé, et comme encerclée par des puissances hostiles, menaçant constamment de la frapper. Comment en est-on arrivé là? Est-il encore possible de sortir sans trop de dégâts de cette longue crise?</p>
+
+<p>François Nicoullaud, analyste de politique internationale, a eu une longue carrière de diplomate qui l’a notamment conduit à traiter des questions de prolifération nucléaire, et à servir pendant près de cinq ans comme ambassadeur de France à Téhéran. Il est l’auteur d’un ouvrage <em>le Turban et la Rose</em> (Ramsay, 2006), tiré de cette dernière expérience, et de nombreux articles sur l’Iran et la non-prolifération dans la presse française et étrangère.</p>
+
+<p>Rendez-vous donc ce vendredi à l’ENS et soyez au courant de nos derniers événements en vous inscrivant à notre mailing-list <a href="mailto:persan@ens.fr">persan@ens.fr</a></p>
+
+<p>L’équipe de Pers-ENS</p>
+
+<p>Posted 13th May 2013 by <a href="/about">PersENS</a></p>
+
+<p>0</p>
+
+<h3 id="add-a-comment-19">Add a comment</h3>
+
+<p><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYAgMAAACdGdVrAAAACVBMVEX///8AAAD///9+749PAAAAAnRSTlMAAHaTzTgAAAAwSURBVHherYyxCQAwCAR/yhTZy8ZeC6c0BETU1msOjucBeyBF54s1FHEs5fZYWb12TL8307RAxVQAAAAASUVORK5CYII=" alt="" /> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYAgMAAACdGdVrAAAACVBMVEX///8AAAAzMzMTx/ayAAAAAnRSTlMAAHaTzTgAAAAwSURBVHherYyxCQAwCAR/yhTZy8ZeC6c0BFS09pqD43nAHijR+WINZZxLuTN2Vq8dTL8301DjA9oAAAAASUVORK5CYII=" alt="" /></p>
+
+<p>Blog Archive</p>
+
+<p>Blog Archive</p>
+
+<ul>
+  <li>
+    <p><a href="http://pers-ens.blogspot.com/2018/">2018</a>3</p>
+  </li>
+  <li>
+    <p><a href="http://pers-ens.blogspot.com/2018/11/">November</a>1</p>
+
+    <ul>
+      <li><a href="http://pers-ens.blogspot.com/2018/11/sorour-kasmai-et-la-litterature.html">Sorour Kasmaï et la littérature iranienne</a></li>
+    </ul>
+  </li>
+  <li>
+    <p><a href="http://pers-ens.blogspot.com/2018/10/">October</a>2</p>
+  </li>
+  <li>
+    <p><a href="http://pers-ens.blogspot.com/2015/">2015</a>7</p>
+  </li>
+  <li>
+    <p><a href="http://pers-ens.blogspot.com/2015/12/">December</a>1</p>
+  </li>
+  <li>
+    <p><a href="http://pers-ens.blogspot.com/2015/11/">November</a>1</p>
+  </li>
+  <li>
+    <p><a href="http://pers-ens.blogspot.com/2015/05/">May</a>3</p>
+  </li>
+  <li>
+    <p><a href="http://pers-ens.blogspot.com/2015/03/">March</a>2</p>
+  </li>
+  <li>
+    <p><a href="http://pers-ens.blogspot.com/2014/">2014</a>5</p>
+  </li>
+  <li>
+    <p><a href="http://pers-ens.blogspot.com/2014/11/">November</a>2</p>
+  </li>
+  <li>
+    <p><a href="http://pers-ens.blogspot.com/2014/05/">May</a>1</p>
+  </li>
+  <li>
+    <p><a href="http://pers-ens.blogspot.com/2014/04/">April</a>2</p>
+  </li>
+  <li>
+    <p><a href="http://pers-ens.blogspot.com/2013/">2013</a>7</p>
+  </li>
+  <li>
+    <p><a href="http://pers-ens.blogspot.com/2013/10/">October</a>1</p>
+  </li>
+  <li>
+    <p><a href="http://pers-ens.blogspot.com/2013/05/">May</a>4</p>
+  </li>
+  <li>
+    <p><a href="http://pers-ens.blogspot.com/2013/02/">February</a>2</p>
+  </li>
+</ul>
+
+<p><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAB40lEQVRIx7XWwWoTURQG4Lst0jTiolRa2qW4sAWhbrsTBJ8h2bpKNkUUBKGL2idQfIgGuhNsLW7UTaiPYTFpN92Y1s/NmTSEzGSmpj8MAzPnP//cc/97zqRUACyggX30cIlB3C/j2X7E1HJyJBSKtNGPZJ/wAg8xh3lsYhtHEdNDq7QQVnGCP3iJO2kKsIId/AruaqEQ1mMVh7iXKgJL6OIM6xOFYiV9fMTddENgEQchtjpJqIvDNAPEPn6PnNdCIxv/oIBcx7FrHKNeEL+B32hhaOE+3kz5ylGRodgUzl64sZbQxMU0d8lHfYobL9BI6OBribpXFgreZ3RSuONVCaHKpQvea/QT/uJJCUIlM4zwnuIqE6pVsG69jMDYubrKaj+fbglYzoQusVkQuIa30cPGcRLv1gr4zzOhHrZzgpo4Nx3naObk2M3MsI+jipYubXV8y+zdiM6wMgOhrQlGGKCZUIvy7dyC0Ic4pwvZgxZOsTQWuFXxqo9wH8fwbI+PiZNo64szsPT92Jtu0eA7wNx/inzJ9r1olJ/hJzZuIPIoWlP+KB9bWTeG1t4kN+a0mffhsO4op8zvVivceIEfeIdnkXQ5TvxujOxBHNp25f+6CKrFOetEza/Grn68aw4tnCP0D7HegqWQsg0fAAAAAElFTkSuQmCC" alt="" /> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAB8klEQVRIx7XWT0uUURTH8buVcJxoIYaiy2iRwgds6y4Ieg3OttW4kSgIAhfmKyh6ETPgLkiTNtVmsJeR5OjGTWpPm/MM0zjz/DE9cHng3nPO93nu/d1znpQKDDNYRwfHuMB5PC9irhM+jXE5sixLWZYVQjbQj2Qf8RwPMYVprGIT++FzjHZlEBZxiN94gTupxLCALfyM2MVCEJbjK/ZwL9U0zKGHEyzH3L+g+JI+PuBuuqZhFrsBWxwH6mEv3YDFOX6LnAlXDv5BQXATB8hiHKBZ4L+CX2hjIOE+Xpe85TBkACuJ2Qk1NhJaOCtT1xhIPpolajzDekIXXyrse21QxH1CN4U6XlYA1d66iHuFfsIfPK4QUEsMQ3FPcJmDGjWk26wCGLlXl/neT6dbMsznoAusFjgu4U3UsNEzOoy1pYL4ZznoGJsTnFo4LVBcPk7RmpBjOxdDB/s1JV1Z6viay3s9KsPCDYDWxgjhHK2ERmzf1i2A3sc9nckn2jjC3IjjWs3RHIoVzXNjUL1j4TDK+uwNSPp+nE2vqPHtYuo/IZ/zc78CGmrlJ/iBlWtAHkVpGrTysp+TXjStnXFqnFBm3oXCesMxVX632qHGM3zHWzyNpPNx47ejZZ/Hpd0YzVMKClgj7lk39vxyZPRjrTWQ8ATQX2/rqVTnkWAqAAAAAElFTkSuQmCC" alt="" /></p>
+
+<p>About Me</p>
+
+<p>About Me</p>
+
+<p><a href="https://www.blogger.com/profile/17227250371329313798">PersENS</a></p>
+
+<p>Loading</p>
+
+<p>Dynamic Views theme. Powered by <a href="https://www.blogger.com/">Blogger</a>.</p>
+:ET
