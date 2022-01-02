@@ -29,4 +29,4 @@ L’objectif de ce séminaire est de partir de l’analyse de la transmission et
   
 Il s’agira donc d’un travail de géographie, puisque les représentations que nous avons d’un espace politique contribuent à le définir, de sociologie politique, puisqu’il s’agit d’une enquête sur une catégorie précise d’acteurs, et, enfin, de relations internationales, car les séances seront traversées par une réflexion sur les concepts de “diplomatie culturelle” et de “soft power”.   
   
-Voici le lien vers un descriptif plus détaillé : [https://docs.google.com/document/d/1zuBAEDyaPWEtyueN556XkHIy6ua4xDXwmV0ree7G8ZQ/edit?usp=sharing](https://l.facebook.com/l.php?u=https%3A%2F%2Fdocs.google.com%2Fdocument%2Fd%2F1zuBAEDyaPWEtyueN556XkHIy6ua4xDXwmV0ree7G8ZQ%2Fedit%3Fusp%3Dsharing%26fbclid%3DIwAR0azyyu2kYoCYTVHv7GRiqIPq8It9oOncmZobSrpWEqxr7wH4F6DnhWG0g&h=AT3E8l_8NPp3E7t07IriW2O9SOiZAAgZHewBzEUpKGywHpKXS4AeofvmT9VKoq7JvLImKxECzKHX88n4zcAmOpGHQSGqYq0tjSa-4qMStkB9IQvnf_RidiEEaRl6LlvT)
+Voici le lien vers un descriptif plus détaillé : [Culture-et-politique.pdf](Culture-et-politique_Version-finale)

@@ -34,4 +34,4 @@ Sorour Kasmaï est la troisième personne à participer à ce cycle, après Hame
 
   
 
-Voici le lien vers un descriptif plus détaillé : https://docs.google.com/document/d/1zuBAEDyaPWEtyueN556XkHIy6ua4xDXwmV0ree7G8ZQ/edit?usp=sharing
+Voici le lien vers un descriptif plus détaillé : [Culture-et-politique.pdf](/pages/Culture-et-politique_Version-finale)
