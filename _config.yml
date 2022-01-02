@@ -6,7 +6,7 @@ name: Pers-ENS
 
 # Short bio or description (displayed in the header)
 description: "Civilisation persane à l'ENS : recherche et animation"
-footer: 'Séminaires persans <strong>Pers-ENS</strong><br><a href="https://ens.fr">École Normale</a>, 45 rue d’Ulm, Paris'
+footer: "Séminaires persans <strong>Pers-ENS</strong><br><a href='https://ens.fr'>École Normale</a>, 45 rue d'Ulm, Paris"
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: /images/jekyll-logo.jpg
