@@ -2,11 +2,11 @@
 # This file contains configuration flags to customize your site
 #
 # Name of your site (displayed in the header)
-name: Pers-ENS
+name: Бялынічы
 
 # Short bio or description (displayed in the header)
-description: "Civilisation persane à l'ENS : recherche et animation"
-footer: "Séminaires persans <strong>Pers-ENS</strong><br><a href='https://ens.fr'>École Normale</a>, 45 rue d'Ulm, Paris"
+description: "Спадчына прыдруцкага краю"
+footer: "Гістарычны, культурны і літаратурны здабытак Бялыніцкага краю.<br>dfg dfb dfb df"
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: /images/jekyll-logo.jpg
@@ -19,7 +19,7 @@ avatar: /images/jekyll-logo.jpg
 footer-links:
   dribbble:
   email:
-  facebook: persens.ulm
+  facebook: 
   flickr:
   github: 
   instagram:
@@ -84,3 +84,10 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
+  
+  
+hyphenate_filter:
+  language: ru
+  left: 2
+  right: 2
+  selector: p

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Chercher
+title: Пошук
 permalink: /search/
 ---
 

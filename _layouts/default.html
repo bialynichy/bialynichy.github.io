@@ -27,15 +27,15 @@
           </div>
 
           <nav>
-            <a href="{{ site.baseurl }}/search">Chercher</a>
-            <a href="{{ site.baseurl }}/about">À propos</a>
+            <a href="{{ site.baseurl }}/search">Шукаць</a>
+            <a href="{{ site.baseurl }}/about">Пра сайт</a>
           </nav>
         </header>
       </div>
     </div>
 
     <div id="main" role="main" class="container">
-      {{ content }}
+      {{ content  | hyphenate }}
     </div>
 
     <div class="wrapper-footer">
